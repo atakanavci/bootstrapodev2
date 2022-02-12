@@ -1,0 +1,73 @@
+body {
+  padding: 40px;
+    margin: 5px;
+}
+
+.navbar-features{
+  background-color: white;
+  height: 54px;
+  border-bottom: 1px solid rgba(var(--b6a,219,219,219),1) ;
+  
+}
+
+
+::placeholder {
+  background-image: url(/img/search-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: left;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 14px
+}
+.profil-foto {
+  width: 24px;
+  height: 24px;
+}
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background-color: #FAFAFA;
+}
+.container-middlearea {
+max-height: 200px !important;
+}
+
+
+.story1 {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid rgb(238, 39, 82);
+}
+  
+  .txt-dzn {
+    color: rgba(var(--i1d,38,38,38),1);
+    letter-spacing: .01em;
+    font-size: 12px;
+     
+  }
+
+  .postfnt {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  color: black;
+  }
+.card {
+ width: 612px;
+ height: 100px;
+}
+.postimage{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+.postname{
+  font-size: 14px;
+}
+#sticky-sidebar{
+  position: sticky;
+  top:  100px;
+}
